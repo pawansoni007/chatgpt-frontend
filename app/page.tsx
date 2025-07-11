@@ -231,9 +231,9 @@ export default function ChatApp() {
         </div>
 
         {/* Conversations */}
-        <div className="flex-1 px-3">
+        <div className="flex-1 px-3 flex flex-col min-h-0">
           <div className="text-xs text-white/50 font-medium mb-2 px-2">Chats</div>
-          <ScrollArea className="h-full">
+          <ScrollArea className="flex-1 h-0 min-h-0">
             <div className="space-y-1">
               {filteredConversations.map((conversation) => (
                 <Button
