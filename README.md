@@ -1,6 +1,8 @@
 # Chat Application
 
 A ChatGPT-like chat application built with Next.js, Tailwind CSS, and shadcn/ui components.
+## Backend Repo: 
+[chatgpt-backend](https://github.com/pawansoni007/chatgpt-backend)
 
 ## Features
 
